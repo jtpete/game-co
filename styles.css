@@ -1,0 +1,73 @@
+body{
+  background-color: #bec99e;
+}
+
+h1{
+  Font-size: 50px;
+  color: #f9d237;
+  font-family: cursive arial;
+  text-align: center;
+}
+
+h2{
+  color: #f9d237;
+  font-size: 30px;
+  border: 3px solid #f7d939;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
+
+h2:hover{
+  border: 3px solid black;
+  color: black;
+}
+
+#mainGame{
+  color: #f9d237;
+  font-size: 50px;
+  border: 3px solid #f7d939;
+  border-radius: 500px;
+  align-items: center;
+  text-align: center;
+  padding: 300px 50px 300px 50px;
+  margin: 30px;
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/15622133_10154225310241172_3201496963092062224_n.jpg?oh=764341b7484bd46763049bdf1942ef4c&oe=592E42F3);
+
+}
+
+#connect{
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/15622133_10154225310241172_3201496963092062224_n.jpg?oh=764341b7484bd46763049bdf1942ef4c&oe=592E42F3);
+}
+
+#play{
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/15622133_10154225310241172_3201496963092062224_n.jpg?oh=764341b7484bd46763049bdf1942ef4c&oe=592E42F3);
+}
+
+#solve{
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/15622133_10154225310241172_3201496963092062224_n.jpg?oh=764341b7484bd46763049bdf1942ef4c&oe=592E42F3);
+}
+
+#buy{
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/15622133_10154225310241172_3201496963092062224_n.jpg?oh=764341b7484bd46763049bdf1942ef4c&oe=592E42F3);
+}
+
+#pHead{
+  font-family: arial;
+  font-size: 30px;
+  text-align: right;
+}
+
+#pFoot{
+  text-align: center;
+}
+
+.myHF.row{
+  background-color: #527d24;
+}
+
+.myBody.row{
+  background-color: #7d9442;
+}
