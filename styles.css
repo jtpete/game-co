@@ -20,8 +20,14 @@ h2{
   margin: 30px;
 }
 
-h2:hover{
+.yTob h2:hover{
   border: 3px solid black;
+  color: black;
+  text-decoration: none;
+}
+
+p{
+  margin: 0px;
   color: black;
 }
 
@@ -39,7 +45,7 @@ h2:hover{
 }
 
 #connect{
-  background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/15622133_10154225310241172_3201496963092062224_n.jpg?oh=764341b7484bd46763049bdf1942ef4c&oe=592E42F3);
+  background-image: url(images/connect.png);
 }
 
 #play{
@@ -60,8 +66,18 @@ h2:hover{
   text-align: right;
 }
 
-#pFoot{
-  text-align: center;
+#logo{
+  align-items: center;
+
+}
+
+.pFoot{
+    text-decoration: underline;
+}
+
+.LayoutFoot{
+  margin-top: 20px;
+  padding: 20px;
 }
 
 .myHF.row{
