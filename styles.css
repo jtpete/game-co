@@ -11,14 +11,6 @@ h1{
   align-self: baseline;
 }
 
-h3{
-  color: #f9d237;
-  font-size: 30px;
-  border: 3px solid #f7d939;
-  align-items: center;
-  text-align: center;
-  margin: 10px;
-}
 
 .yTob img:hover{
   box-shadow:30px 30px 50px black;
@@ -63,10 +55,6 @@ ol.listEm{
   font-style: bold;
   border: 2px solid black;
 
-}
-
-div.myCenter{
-  align-items: center;
 }
 
 .Rcards{
