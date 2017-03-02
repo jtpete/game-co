@@ -25,7 +25,13 @@ img.logo{
 
 p{
   margin: 0px;
-  color: black;
+  color:black;
+}
+
+h4{
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 15px;
 }
 
 h5{
@@ -35,19 +41,37 @@ h5{
 
 }
 
-#mainBody{
+#mainBody1{
   background-image: url(images/kids.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
   height: 700px;
   width: 100%;
+
+}
+
+#mainBody2{
+  background-color: #7d9442;
+  height: 800px;
+  width: 100%;
+
 }
 
 #mainPic{
     width: 350px;
     object-fit: cover;
     padding: 30px;
+}
+
+#boardGamePic{
+  width: 500px;
+  height: 350px;
+  object-fit: fill;
+  border: 2px solid black;
+  box-shadow:5px 5px 10px black;
+  float: right;
+  margin: 40px;
 }
 
 #navContain{
@@ -67,6 +91,27 @@ h5{
 
 }
 
+#divider{
+  height:200px;
+}
+
+#moveRight{
+  Float:right;
+}
+
+#boxPeace{
+  width: 100%;
+  height: 25%;
+  object-fit: cover;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+p.emphasis{
+  font-size: 100px;
+  color: #f9d237;
+  font-family: cursive;
+}
 ol.listEm{
   padding: 30px;
   list-style-type: none;
