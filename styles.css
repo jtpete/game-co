@@ -28,7 +28,7 @@ p{
   color:black;
 }
 
-h4{
+h4.homePage{
   font-size: 50px;
   font-weight: bolder;
   padding: 15px;
@@ -121,6 +121,22 @@ ol.listEm{
   font-style: bold;
   border: 2px solid black;
 
+}
+
+h4.rotate{
+  transform: rotate(-70deg);
+  -ms-transform: rotate(-70deg);
+  -webkit-transform: rotate(-70deg);
+  font-family: cursive;
+  font-size: 50px;
+  color:#f9d237;
+  padding: 10px;
+  margin: 20px;
+}
+
+.testCard{
+  border: 2px solid black;
+  margin: 10px;
 }
 
 .Rcards{
