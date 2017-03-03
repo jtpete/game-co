@@ -32,6 +32,7 @@ p{
 h4.homePage{
   font-size: 50px;
   font-weight: bolder;
+  font-family: 'Gloria Hallelujah', cursive;
   padding: 15px;
 }
 
@@ -68,11 +69,10 @@ h5{
 
 #boardGamePic{
   width: 500px;
-  height: 350px;
-  object-fit: fill;
+  height: 300px;
+  object-fit: contain;
   border: 2px solid black;
   box-shadow:5px 5px 10px black;
-  float: right;
   margin: 40px;
 }
 
@@ -125,10 +125,7 @@ ol.listEm{
 
 }
 
-h4.rotate{
-  transform: rotate(-70deg);
-  -ms-transform: rotate(-70deg);
-  -webkit-transform: rotate(-70deg);
+h4.rowHead{
   font-family: cursive;
   font-size: 50px;
   color:#f9d237;
@@ -141,17 +138,13 @@ h4.rotate{
   margin: 10px;
 }
 
-.Rcards{
-  float: right;
-}
-
 .medPic{
   height: 250px;
   width: 350px;
-  border-radius:100px;
+  border-radius:50px;
   border: 1px solid black;
   object-fit: cover;
-  margin: 30px;
+  margin: 5px;
   box-shadow:20px 20px 30px black;
 }
 
@@ -213,11 +206,7 @@ h4.rotate{
 }
 
 .right h5 {
-  float: left;
   display: inline;
-}
-img#mainPic{
-  float: right;
 }
 
 .pressDown{
