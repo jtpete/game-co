@@ -7,8 +7,9 @@ body{
 h6{
   Font-size: 100px;
   color: #f9d237;
-  font-family: arial;
+  font-family: 'Gloria Hallelujah', cursive;
   align-self: baseline;
+  float: right;
 }
 
 
@@ -35,6 +36,7 @@ h4.homePage{
 }
 
 h5{
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 100px;
   font-weight: bolder;
   padding: 15px;
@@ -79,7 +81,7 @@ h5{
 }
 
 #pHead{
-  font-family: arial;
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 30px;
   text-align: right;
 }
@@ -208,7 +210,6 @@ h4.rotate{
 
 .pBody{
   margin: 30px;
-  border: 2px solid black;
 }
 
 .right h5 {
@@ -222,6 +223,7 @@ img#mainPic{
 .pressDown{
   margin-top: 50%;
 }
+
 .right {
     position: absolute;
     right: -20px;

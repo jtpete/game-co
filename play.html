@@ -7,20 +7,44 @@
   <title>Dinner Mystery</title>
 
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   <!-- Add all of your custom CSS to styles.css -->
   <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
+  <nav role="navigation" class="myNav navbar fixed-top navbar-toggleable-md navbar-light container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img class="logo" src="images/famfun logo.png"/></a>
 
-  <div class="container" >
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="connect.html" target="_blank">Connect</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Play <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="win.html" target="_blank">Win</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div id="navContain" class="container" >
 
     <div class="myHF row">
-      <div class="col-md-6">
+      <div class="col-md-4">
             <h6>Play</h6>
       </div>
       <div class="col-md-6">
-            <p id="pHead">Intract through the whole meal</p>
+            <p id="pHead">Interact Through the Whole Meal</p>
       </div>
     </div>
 
@@ -39,7 +63,7 @@
 
     <div class="myBody row">
         <div class="col-md-12">
-          <p>When all players are present, everyone receives a card.  The detective
+          <p class="pBody">When all players are present, everyone receives a card.  The detective
           tries to figure out the action of each person, everyone else tries to figure
         out who the detective is.  Throughout the supper, throughout the conversation
       each person shares their day as if lived by the character card.  The person must share
@@ -69,7 +93,6 @@
             <a href="connect.html"><p class:"pFoot">connect</p></a>
             <a href="play.html"><p class:"pFoot">play</p></a>
             <a href="win.html"><p class:"pFoot">win</p></a>
-            <a href="buy.html"><p class:"pFoot">buy</p></a>
       </div>
       <div class="LayoutFoot col-md-4">
             <p>Signup for our Newsletter</p>
