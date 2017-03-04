@@ -44,37 +44,12 @@ h5{
 
 }
 
-#mainBody1{
-  background-image: url(images/kids.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  height: 700px;
-  width: 100%;
+.carPad{
+  padding-left: 0px;
+  padding-right: 0px;
 
 }
 
-#mainBody2{
-  background-color: #7d9442;
-  height: 800px;
-  width: 100%;
-
-}
-
-#mainPic{
-    width: 350px;
-    object-fit: cover;
-    padding: 30px;
-}
-
-#boardGamePic{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-/*  border: 2px solid black; */
-  box-shadow:5px 5px 10px black;
-  margin: 5px;
-}
 
 #navContain{
   margin-top: 74px;
@@ -101,13 +76,6 @@ h5{
   Float:right;
 }
 
-#boxPeace{
-  width: 100%;
-  height: 25%;
-  object-fit: cover;
-  border: 2px solid black;
-  margin-bottom: 10px;
-}
 
 ol.listEm{
   padding: 30px;
